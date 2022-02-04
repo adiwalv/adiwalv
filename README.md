@@ -6,7 +6,7 @@
 
 ```Java
 public class SoftwareDeveloper {
-    
+
     String name;
     String role;
 
@@ -16,14 +16,14 @@ public class SoftwareDeveloper {
     }
 
     public void sayHi() {
-        System.out.println(String.format("Hi There! My name is %s and I am a %s", this.name, this.role));
+        System.out.printf("Hi There! My name is %s and I am a %s", this.name, this.role);
     }
 
     public static void main(String[] args) {
         SoftwareDeveloper softwareDeveloper = new SoftwareDeveloper("Vikas Adiwal", "Software Developer");
         softwareDeveloper.sayHi();
     }
-    
+
 }
 ```
 
